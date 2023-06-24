@@ -1,0 +1,582 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+@font-face {
+    font-family: Corbel;
+    src: url(CORBEL.TTF);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family:Corbel;}
+h1 , .h1 { font-size:30px; }
+
+body{ font-family:Corbel;
+	  font-size:13px; 
+	  color: #5E5F61
+	 /* color:#333; */
+	  }
+p{ font-size:15px; 
+	/*color: #5E5F61*/
+	}
+/*HEADER*/
+header{ z-index: 100; display:block; overflow:hidden;}
+header p.lead{ font-family:'Heuristica Regular'; font-size:18px; font-style:normal; color:#939597; line-height: 20px;  }
+header a.navbar-brand{ margin:0; padding:0; }
+header a.name{ font-family:'Heuristica Regular'; font-size:60px;  padding-bottom: 30px; padding-top: 40px; color:#5e5f61; }
+header .logo{ width:130px; height:186px; margin-left:15px;margin-top: 0;}
+.logo_nombre_facultad img {
+    padding-top: 20px;
+}
+/*HEADER*/
+
+/*MENUS*/
+.dropdown-menu>li>a{ white-space: normal; }
+/*#navbar{ margin-top:-87px;}*/
+/*.navbar-nav li a{ border-right: 1px white solid; border }*/
+/*.navbar-nav>li>a {margin-top:10px;  padding-top: 3px; padding-bottom: 3px; } */
+.navbar { background-color: rgba(36,36,36,0.7); border:0; border-radius:0px; }
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus{
+	background-color: transparent;
+	color:white;
+	text-transform: uppercase;
+	font-size:13px;
+	
+	
+}
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.collapsed>a:hover, 
+.navbar-default .navbar-nav>li>a:hover{ color:#1b6fb5;}
+.navbar-nav.pull-right>li>.dropdown-menu, .navbar-nav>li>.dropdown-menu.pull-right, .dropdown-menu{ 
+background-color: rgba(36,36,36,0.7);
+border-radius:0; }
+	 
+	
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:hover, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav .active-trail{
+	color: #1b6fb5; background-color: #e7e7e7;
+}
+.dropdown-menu>.active>a, 
+.dropdown-menu>.active>a:hover, 
+.dropdown-menu>.active>a:focus{
+	color: #1b6fb5;
+	text-decoration: none;
+	background-color: #E0E0E0;
+	outline: 0;
+	text-transform: uppercase;
+	font-size:11px;
+}
+.dropdown-menu>li>a{
+	text-transform: uppercase;
+	font-size:11px;
+	color:white;
+	}
+	
+	
+	.dropdown-menu>li>a:hover{
+	
+	color:#1b6fb5;
+	}	
+	
+	
+
+.dropdown-menu .navbar-default .navbar-nav .active-trail{ background-color:#001c43;}
+
+.caret{color:white;}
+.secondary li a{ color:#001c43; }
+.secondary li a:hover{ color:#005d9b; }
+/*MENUS*/
+
+/*BODY*/
+.region-sidebar-first .block-menu .block-title{ text-transform:uppercase; font-size:17px; color:#1b6fb5; font-weight:600; }
+.region-sidebar-first .nav>li.active { background-color:#E8E8E8;  }
+.region-sidebar-first .nav>li{border-bottom:1px solid #E1E1E1; overflow:hidden; }
+.region-sidebar-first .nav>li>a{ color:#5e5f61; }
+.region-sidebar-first .nav>li.active>a{ color:#005d9b; font-family: Corbel; }
+.region-sidebar-first .nav>li>a:hover{ color:#005d9b; }
+.block-title, .page-header{ font-family:Corbel; color:#7A7A7A; font-weight:500; }
+.breadcrumb { text-align:right; border-radius:0; margin-bottom:0;} 
+.breadcrumb li a{ color:#001c43; }
+.breadcrumb li a:hover{ text-decoration:none;}
+.breadcrumb>.active{ color:#1b6fb5; }
+/*BODY*/
+
+
+
+/*Bloque Secundario*/
+
+.region.region-sidebar-second {
+    margin-top: 43px;
+}
+
+/*FOOTER*/
+.cont-footer{background-color:#7A7A7A; color:white; font-size:12px; overflow:hidden; }
+
+
+
+/*Pre footer*/
+.pre-footer1,.pre-footer2,.pre-footer3{ background-color:#E8E8E8; text-align:left; overflow:hidden; margin-top:20px; border-right:2px solid white}
+.pre-footer3 .block-title{ color:#7A7A7A; text-transform:capitalize; font-size:12px; padding-top:0; margin-top:10px;  }
+.pre-footer3 .block-redes-sociales{ text-align:left; }
+.pre-footer1 .block-menu ul li a{ background-image:none; padding:2px 5px 2px 5px;  line-height:15px; }
+
+
+.pre-footer1{  padding-left:20px;padding-top:40px;min-height: 175px}
+.pre-footer2{  padding-left:40px;padding-top:40px;min-height: 175px}
+.pre-footer3{  padding-left:40px;padding-top:40px;min-height: 175px;border-right:none}
+/*FOOTER*/
+
+/*UTILITY*/
+.pad-tb-20{padding:20px 0; }
+.pad-ftb-20{padding-top:25px; padding-bottom:20px;}
+.pad-footer-izq{padding-top:37px; padding-bottom:37px;padding-left: 37px;line-height: 15px;}
+.pad-footer-der img {margin-top: 27px;margin-right: 20px; float:right}
+.plomo{color:#e5e5e5;}
+.sin-padding{ padding:0; }
+.z1{ z-index:100;}
+.z2{ z-index:99;}
+.space-15{ margin:15px 0;}
+.block-title{ text-transform:uppercase; font-size:17px; color:#1b6fb5; font-weight:600; }
+.text-justify{ text-align:justify; }
+.mg-tp-42{ margin-top:42px; padding-left:60px}
+.mar-bt-10{padding-bottom:10px;}
+.mar-bt-15{margin-bottom:15px;}
+mar-top-10-neg{margin-top:-10px;}
+.mg-top-5{ margin-top:5px;}
+
+
+.img-responsive_logo {
+    display: block;
+    height: auto;
+    max-width: 90%;
+	margin-left: 15px;
+}
+
+.views-row-1 .views-field-title {
+    margin-top:9px;
+}
+
+.datos_contactenos {
+    float:right;
+	line-height: 10px;
+	color: #5e5f61;
+}
+
+
+.webform-client-form {
+    /*width:50%;*/
+}
+
+.webform-client-form label {
+   color: #5e5f61;
+}
+
+#block-system-main > #node-162 >.submitted span{
+   visibility: hidden;
+}
+
+.webform-client-form  button {
+    background-color: #1b6fb5;
+    border-color: #1b6fb5;
+    color: #fff;
+    float: right;
+    height: 20px;
+    padding-top: 0;
+    /*width: 16%;*/
+	margin-top: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    
+}
+
+.contenedor_arte_tecnologia, .contenedor_arte_disenio, .contenedor_medios_cultura, .contenedor_estudios_doctorales {
+    border-bottom: 1px dotted gray;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.imagen_arte_tecnologia, .imagen_arte_disenio, .imagen_medios_cultura {
+    float: right;
+    text-align: right;
+}
+
+.contenido_arte_tecnologia, .contenido_arte_disenio, .contenido_medios_cultura{
+    line-height: 17px;
+}
+
+.contenido_estudios_doctorales {
+    line-height: 10px;
+}
+
+
+/**Estilo de Menu***/
+.contenedor_lista>ul>li>a{
+ 	color:#5e5f61;
+	text-decoration:none;
+}
+
+.contenedor_lista>ul>li:hover{
+  	background-color:#7a7a7a;
+	color:white;
+}
+.contenedor_lista>ul>li:hover a{
+    color:white;
+}
+
+.contenedor_lista>ul{
+  	list-style-type:none;
+	padding-left: 5px;
+}
+
+.contenedor_lista>ul>li{
+   	background-color: #f5f5f5;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	padding-left: 20px;
+	border: 2px solid #f5f5f5;
+    border-radius: 10px;
+	font-size: 15px;
+}
+
+
+
+/*****/
+
+
+/*pregrado*/
+.contenedor_lista_pregrado>ul>li>a{
+ 	color:#5e5f61;
+	text-decoration:none;
+}
+
+.contenedor_lista_pregrado>ul>li:hover,.contenedor_lista_pregrado>ul>li>a:hover{
+  	background-color:#7a7a7a;
+	color:white;
+}
+
+.contenedor_lista_pregrado>ul, .contenedor_lista_pregrado_ingles>ul{
+  	list-style-type:none;
+	padding-left: 5px;
+}
+
+.contenedor_lista_pregrado>ul>li{
+   	background-color: #f5f5f5;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	padding-left: 20px;
+	border: 2px solid #f5f5f5;
+    border-radius: 10px;
+	font-size: 15px;
+}
+
+
+
+.contenedor_lista_pregrado_ingles>ul>li{
+   	
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	padding-left: 10px;
+	border: 2px solid white;
+    border-radius: 10px;
+	font-size: 15px;
+	margin-left:-30px;
+}
+
+
+
+/*posgrado*/
+
+.contenedor_lista_posgrado>ul>li>a, .contenedor_lista_posgrado_ingles>ul>li>a{
+ 	color:#5e5f61;
+	text-decoration:none;
+}
+
+.contenedor_lista_posgrado>ul>li:hover,.contenedor_lista_posgrado>ul>li>a:hover{
+  	background-color:#7a7a7a;
+	color:white;
+}
+
+.contenedor_lista_posgrado>ul, .contenedor_lista_posgrado_ingles>ul{
+  	list-style-type:none;
+	padding-left: 5px;
+}
+
+.contenedor_lista_posgrado>ul>li{
+   	background-color: #f5f5f5;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	padding-left: 20px;
+	border: 2px solid #f5f5f5;
+    border-radius: 10px;
+	font-size: 15px;
+}
+
+
+.contenedor_lista_posgrado_ingles>ul>li{
+   	
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	padding-left: 10px;
+	border: 2px solid white;
+    border-radius: 10px;
+	font-size: 15px;
+	margin-left:-30px;
+}
+
+
+
+/*infraestructura*/
+.infraestructura_recursos_contenido,.infraestructura_laboratorios_contenido, .infraestructura_talleres_contenido  {
+    line-height: 10px;
+}
+.infraestructura_recursos_imagen,.infraestructura_laboratorios_imagen, .infraestructura_talleres_imagen  {
+    float:right;
+	text-align:right;
+	margin-top:10px;
+}
+
+.infraestructura_recursos,.infraestructura_laboratorios, .infraestructura_talleres  {
+  margin-bottom: 35px;
+}
+.infraestructura_recursos {
+  margin-top: 30px;
+}
+
+
+
+
+/*banner pag internas*/
+
+.img-banner-responsive img{
+      
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+
+/*Movilidad e Intercambio*/
+
+.contenedor_mov_inter {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+/*UTILITY*/
+
+/*DRUPAL*/
+
+.views-field-title a, .more-link a{ font-family: Corbel; font-size:17px; color:#001547; font-weight:bold; line-height:17px}
+/*.views-field-field-descripcion{ padding:45px; text-align:justify; }*/
+.views-field-created{ font-size:13px; color:#7A7A7A; font-family: Corbel;}
+/*DRUPAL*/
+
+/**/
+.region-video-facultad{margin-bottom:15px;}
+.region-video-facultad .block-title, .region-anuncios .block-title{color:#1b6fb5;}
+.vp_descripcion{ color:#5e5f61; font-weight:700; }
+/**/
+
+/*EVENTOS*/
+.eve_descripcion{ padding:15px 0;}	
+div.region-noticias .block-title, div.region-eventos .block-title, div.region-carreras .block-title{ text-align:center; background-color:white; margin:0 auto;}
+.content h2.block-title{margin-bottom:20px; border-bottom: 1px inset #E8E8E8;}
+.content .region{ margin-bottom:40px;}
+.hr-titulo{margin-top:10px; border-bottom:1px solid #E8E8E8; }
+.more-link{float:right; }
+
+.view-noticias .views-row, .view-eventos .views-row { border-bottom:1px solid #E8E8E8; padding-top:10px; padding-bottom:10px;  }
+.view-noticias .views-row-1, .view-noticias .views-row-2, .view-eventos .views-row-1, .view-eventos .views-row-2{ padding-top:0; }
+.view-noticias .views-row-3, .view-eventos .views-row-3{ background-color:#E8E8E8; }
+.view-noticias .views-row:last-child, .view-eventos .views-row:last-child {
+    border-bottom:0;
+}
+.view-noticias .views-row-1, .view-eventos .views-row-1{ border-right: 1px solid #E8E8E8; border-bottom:0; }
+
+/*EVENTOS*/
+
+/*SLIDESHOW*/
+.view-slideshow-principal{ margin-bottom:20px;}
+.views-slideshow-controls-bottom .active{color:white;}
+.pager-item{ padding:8px 5px; float:left; color:#7A7A7A; font-size:40px; line-height:15px; }
+.views-content-counter{ cursor:pointer; }
+.slideshow-controls{ width:140px; float:right; background: rgba(0, 0, 0, 0.50); margin-top:-40px; z-index:20; position:relative;  }
+
+.theme-default .nivoSlider  {
+    box-shadow:none;
+}
+
+
+.nivo-controlNav {
+    float: right;
+    margin-top:-60px;
+    position: relative;
+    z-index: 50;
+	margin-bottom:15px;
+}
+/*SLIDESHOW*/
+
+/*MENUS*/
+.block-menu ul li a{
+padding:7px 11px 5px 28px; 
+font-size:15px;
+font-weight:bold; 
+color:#6F6F6F;
+background-repeat: no-repeat;
+font-weight:normal;
+background-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAKCAYAAAB8OZQwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGNJREFUeNpiYgCCXdqGBgxIgAko4ACk1wNpAbgglFYA4v0wCZDgB6gEyIj9IAYj1MwEIDUfKrmAEWYOUGI9kAqAmwm13QEq/wFkuwLULAGo+Y5MUC1wAber5y8woQuA9AMEGAB2TBsk/mEdogAAAABJRU5ErkJggg==');
+background-position: left 10px center; 
+}
+
+.region-sidebar-second .block-menu ul li a{
+padding:7px 11px 5px 28px; 
+font-size:15px;
+font-weight:bold; 
+color:#6F6F6F;
+background-repeat: no-repeat;
+font-weight:normal;
+background-image:none;
+background-position: left 10px center; 
+}
+
+.region-sidebar-second .nav > li {
+    border-bottom: 1px solid #e1e1e1;
+    overflow: hidden;
+}
+
+
+.pre-footer .block-menu ul li a{ background-image:none; padding:2px 5px 2px 5px;  line-height:15px; }
+
+
+#block-menu-menu-menu-footer-1 ul li a{
+font-size:12px;
+}
+
+
+#block-menu-menu-menu-footer-2 ul li a{
+font-size:12px;
+}
+
+/*MENUS*/
+
+.block-search{margin-top:30px;}
+.block-redes-sociales{ text-align:right; margin-top:-6px;}
+
+#block-block-6{ margin-top:40px;}/*Block Banner Publicitario*/
+.region-video-facultad h2.block-title, .region-anuncios h2.block-title{ border-bottom: 2px #1b6fb5 solid; }
+/*SOCIAL TIMELINE*/
+#socialTimeline {
+    height: 530px; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/*Search*/
+.btn-primary {
+    background-color: #1b6fb5;
+    border-color: #1b6fb5;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #1b6fb5;
+    border-color: #1b6fb5;
+    color: #fff;
+}
+
+.input-sm {
+   
+    height: 34px;
+    
+}
+.link{cursor:pointer}
+.menu .sub-arrow{display:none !important;}
+
+/***************************************************************************/
+.bg-azul{
+    background-color: #f2f2f2;
+}
+.list-flag {
+    margin-bottom: 0;
+}
+.list-flag a {
+    display: inline-block;
+    vertical-align: middle;
+}
+.flag_es, .flag_en{
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.flag_es{
+    background-image: url('../images/espanol.png');
+}
+.flag_es:hover{
+    background-image: url('../images/espanolrollover.png');
+}
+.flag_en{
+    background-image: url('../images/ingles.png');
+}
+.flag_en:hover{
+    background-image: url('../images/ingles-rollover.png');
+}
+
+.form-search .form-control {
+    height: 21px;
+    padding: 0px 0px 0 5px;
+    background-color: #c6c6c6;
+    color: #fff;
+    text-align: right;
+    border-color: #c6c6c6;
+    border-radius: 6px 0px 0 6px;
+}
+.form-search .form-group {
+    margin-bottom: 0;
+}
+.form-search .btn {
+    border-radius: 0 6px 6px 0;
+}
+.form-search .btn-primary {
+    font-size: 12px;
+    background-color: #c6c6c6;
+    border-color: #c6c6c6;
+    padding: 2px 10px 0px 10px;
+    color: #fff;
+    height: 21px;
+}
+.block-search {
+    margin-top: 0;
+}
+.logo_derecha{
+    text-align: right;
+}
+.logo_derecha img{
+    min-height: 90px;
+    margin-top: 10px;
+}
+
+/*body.not-front div.alert.alert-danger.error{ display: none; }*/
+
+@media (max-width: 760px) {
+    .logo_derecha {
+        text-align: center;
+    }
+    .logo_derecha img {
+        float: none !important;
+    }
+    #div-logo{
+        margin-left: 145px;
+    }
+}
